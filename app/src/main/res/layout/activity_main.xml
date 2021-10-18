@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:hint="Enter a name"
+        android:textColor="@color/teal_700"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:fontFamily="casual"
+        android:layout_marginBottom="30sp"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/etGetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:inputType="number"
+        android:hint="Enter the index of the name "
+        android:textColor="@color/teal_700"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/btGetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Name"
+        android:fontFamily="casual"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="Your Name!" />
+
+
+</LinearLayout>
